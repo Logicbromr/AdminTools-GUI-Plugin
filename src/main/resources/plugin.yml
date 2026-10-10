@@ -1,0 +1,18 @@
+name: AdminTools
+version: 1.0.0
+main: com.logicbromr.admintools.AdminToolsPlugin
+api-version: '1.21'
+description: Premium admin tools GUI for Paper 1.21.1 servers
+commands:
+  adminmenu:
+    description: Opens the premium admin tools GUI
+    usage: /adminmenu
+    aliases: [am, admintools]
+    permission: admintools.use
+permissions:
+  admintools.use:
+    description: Allows access to the admin menu
+    default: op
+  admintools.reload:
+    description: Allows reloading plugin config
+    default: op
